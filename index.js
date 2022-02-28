@@ -78,7 +78,7 @@ sources.forEach(source => {
 });
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my api Ukraine war api :)');
+    res.json('Welcome to my Ukraine war API');
 });
 
 app.get('/news', (req, res) => {
